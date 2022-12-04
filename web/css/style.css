@@ -1,5 +1,7 @@
+/*général*/
 body { 
     padding-top: 100px; 
+    background-color: rgb(61, 61, 61);
 }
 
 #logo{
@@ -9,7 +11,7 @@ body {
 	overflow: hidden;
 	padding-top: 76px;
 	font-size: 0;
-	background: url("../images/logo.png") no-repeat center center;
+    background: url("../images/logo.png") no-repeat center center;
 }
 
 .footer {
@@ -17,18 +19,64 @@ body {
     padding-top: 10px;
     text-align: center;
     margin-top: 30px;
+    color: white;
 }
 
-.articleTitle:hover, .articleTitle:focus {
-    text-decoration: none;
+h1 {
+    color: white;
 }
 
-.adminTable {
-    margin-top: 20px;
+h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+h2>.text-center {
+    color: white;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.border {
+    border:solid 2px;
+    border-radius: 10px;
+    border-color: 222;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-bottom: 20px;
+    background-color: white;
 }
 
 #errorPanel {
     padding-top: 30px;
     padding-bottom: 10px;
+}
+
+/*lien*/
+.articleTitle:hover, .articleTitle:focus {
+    text-decoration: none;
+}
+
+/*admin*/
+.adminTable {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.table-responsive {
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.adminview {
+    color: white;
+}
+
+.adminview:hover {
+    color: #333333;
 }
