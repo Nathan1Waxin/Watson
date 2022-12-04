@@ -7,12 +7,14 @@ require __DIR__.'/../app/routes.php';
 require_once __DIR__.'/../vendor/autoload.php';
 
 
-//flux rss gestionnaire
 
 $app = new Silex\Application();
 $app->run();
 
-$web_url ="http://" . $_SERVER["SERVER_NAME"] . $_SERVER["REQUEST_URI"];
+
+
+
+//flux rss gestionnaire
 $str = "<?xml version='1.0' ?>";
 $str .= "<rss version='2.0' >";
 
